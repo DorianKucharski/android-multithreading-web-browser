@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Przeglądarka</string>
+    <string name="settings">Settings</string>
+    <string name="textColor">Text Color</string>
+    <string name="iconColor">Icon Color</string>
+    <string name="buttonColor">Button Color</string>
+    <string name="backgroundColor">Background Color</string>
+    <string name="tab_name_english">Tab No. %1$d Thread: %2$s</string>
+    <string name="tab_name_polish">Karta nr. %1$d Wątek: %2$s</string>
+    <string name="newTab_Button">new tab</string>
+    <string name="tabs_Button">tabs</string>
+    <string name="settings_Button">settings</string>
+    <string name="goBackFromFavouritesButton">Go back</string>
+
+
+</resources>

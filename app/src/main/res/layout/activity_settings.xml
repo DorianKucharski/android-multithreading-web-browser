@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/settings_layout"
+    tools:context=".SettingsActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/settings_titleTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="50sp"
+                android:text="@string/settings" />
+
+            <Button
+                android:id="@+id/settings_colorTextButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/textColor" />
+
+            <Button
+                android:id="@+id/settings_colorIconButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/iconColor" />
+            <Button
+                android:id="@+id/settings_colorButtonButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/buttonColor" />
+            <Button
+                android:id="@+id/settings_colorBackgroundButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/backgroundColor" />
+
+
+            <TextView
+                android:id="@+id/settings_fontTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:text="Font" />
+
+            <Spinner
+                android:id="@+id/settings_fontSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/settings_smallFontSizeTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="10sp"
+                android:text="Small font size"
+                android:layout_marginTop="10dp"/>
+
+            <Spinner
+                android:id="@+id/settings_smallFontSizeSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/settings_mediumFontSizeTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:text="Medium font size"
+                android:layout_marginTop="10dp"/>
+
+            <Spinner
+                android:id="@+id/settings_mediumFontSizeSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/settings_bigFontSizeTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="50sp"
+                android:text="Big font size"
+                android:layout_marginTop="10dp"/>
+
+            <Spinner
+                android:id="@+id/settings_bigFontSizeSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"/>
+
+            <CheckBox
+                android:id="@+id/settings_boldFontCheckBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bold"
+                android:layout_marginTop="10dp"/>
+
+            <CheckBox
+                android:id="@+id/settings_italicFontCheckBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Italic"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/settings_languageTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:text="Language"
+                android:layout_marginTop="10dp"/>
+
+            <Spinner
+                android:id="@+id/settings_languageSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"/>
+
+
+            <TextView
+                android:id="@+id/settings_profile1TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:text="Profiles"
+                android:layout_marginTop="10dp"/>
+
+            <Spinner
+                android:id="@+id/settings_profileSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"/>
+
+
+            <Button
+                android:id="@+id/settings_addNewProfileButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add new profile"
+                android:layout_marginTop="10dp"/>
+
+            <Button
+                android:id="@+id/settings_deleteCurrentProfileButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Delete profile"
+                android:layout_marginTop="10dp"/>
+
+            <Switch
+                android:id="@+id/settings_adblockSwitch"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adblock" />
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>

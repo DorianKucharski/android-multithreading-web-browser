@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/buttonsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <SearchView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="100"
+            android:id="@+id/searchView"/>
+
+        <Button
+            android:id="@+id/addTabButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="0sp"
+            android:visibility="gone"
+            android:drawableTop="@drawable/ic_add_black_24dp" />
+
+        <Button
+            android:id="@+id/tabsButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="0sp"
+            android:drawableTop="@drawable/ic_tab_black_24dp"  />
+
+
+        <com.example.webbrowserfinal.NDSpinner
+            android:id="@+id/settingsSpinner"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:text="@string/settings_Button"
+            android:drawableTop="@drawable/ic_settings_black_24dp"  />
+
+        <Button
+            android:id="@+id/goBackFromFavouritesButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/goBackFromFavouritesButton"
+            android:textSize="8sp"
+            android:visibility="gone"
+            android:drawableTop="@drawable/ic_arrow_back_black_24dp"  />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tabsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"></LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+    />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+
+
+</LinearLayout>
