@@ -14,7 +14,7 @@ Simple web browser based on web views
 
 ### Preview
 
-![1](https://user-images.githubusercontent.com/54181425/131103371-5e7847e8-acd2-4c96-836a-c0d86261e2aa.jpg)
+![1](https://user-images.githubusercontent.com/54181425/131103371-5e7847e8-acd2-4c96-836a-c0d86261e2aa.jpg | height=50)
 ![2](https://user-images.githubusercontent.com/54181425/131103381-8f002f08-e3cd-46f4-9c08-963041ff0ddd.jpg)
 ![3](https://user-images.githubusercontent.com/54181425/131103385-df0318f8-8760-4463-90ce-fbc9ade4c31f.jpg)
 ![4](https://user-images.githubusercontent.com/54181425/131103391-3f9679ed-bab9-45cb-b8e2-78a1b5b2d1e9.jpg)
